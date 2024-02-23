@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title style="color: #2E5A88;">Money Html</title>
+
+<head>
+    <title style="color: #2E5A88;">Money Html</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</head>
 <style>
     p {
         color: rgb(206, 215, 223);
@@ -8,11 +21,18 @@
 
     #game {
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        gap: 5px;
+        /* grid-template-rows: repeat(7, 1fr); */
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2px;
     }
 
-    img {
+    /* #game .row {
+        margin: 0; /* Remove default margin applied by Bootstrap */
+    }
+
+    */ #game img {
+        width: 100%;
+        height: auto;
         border: 1px solid #fff;
     }
 </style>
@@ -39,157 +59,150 @@
         </div>
     </div>
     <h3 style="color: darkgoldenrod;">Game Filed</h3>
-    <div class="container" id="game">
+    <div class="container">
         <div class="row">
-            <div>
+            <div class="col">
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
         </div>
         <div class="row">
-            <div>
+            <div class="col">
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-        </div>
-        <div class="row">
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
         </div>
         <div class="row">
-            <div>
+            <div class="col">
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-        </div>
-        <div class="row">
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
-                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
-                    alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
         </div>
         <div class="row">
-            <div>
+            <div class="col">
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
         </div>
         <div class="row">
-            <div>
+            <div class="col">
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
-            <div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
-            <div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
-            </div>
-            <div>
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
+                <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
+                    alt="Building" height="100" width="100">
+
+
                 <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment7-12bhargava/blob/main/Building.jpg?raw=true"
                     alt="Building" height="100" width="100">
             </div>
