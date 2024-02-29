@@ -3,4 +3,4 @@
 An assignment on java script modifying the DOM and using anonymous callback functions. <br>
 [money.html]: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-12bhargava/money.html <br>
 [precision.html]: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-12bhargava/precision.html <br>
-[divlist.html]: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-12bhargava/divlist.html
+[divlist.html]: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-12bhargava/divlist.html <br>
