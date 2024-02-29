@@ -41,6 +41,7 @@
     <p style= "text-align:center;" id="score">Score is zero</p>
     <p style= "text-align:center;"><button onclick="help()">Click for help</button></p>
     <p style= "text-align:center;" id="help">Help report</p>
+    <p style= "text-align:center;font-family: cursive";><button class="btn btn-primary" onclick="newGame()">new game</button></p>
     </div>
     <div class="container">
         <div class="row">
@@ -172,6 +173,16 @@
      
      
           }
+          function newGame() {
+            monsterLocation = Math.floor(Math.random() * 35);
+            fancyCoinLocations = Math.floor(Math.random() * 35);
+            console.log(monsterLocation);
+            console.log(fancyCoinLocations);
+            score=null;
+            locations=null;
+            document.getElementById("locations").innerText =`locations: 0`;
+            document.getElementById("score").innerText = `score: 0`;
+        }
     </script>
 </body>
 
